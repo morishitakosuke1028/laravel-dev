@@ -31,3 +31,19 @@ package.json <br>
 docker-compose exec web npm install <br>
 docker-compose exec web npm run dev <br>
 <br>
+4項目削除<br>
+<ul>
+<li>/auth以下</li>
+<li>layouts(app.blade.phpをviews直下に移動させlayoutsディレクトリ自体を削除)</li>
+<li>home.blade.php</li>
+<li>welcome.blade.php</li>
+</ul>
+<br>
+resource→views→app.blade.phpになっていればOK
+<br>
+app.blade.phpのid="app"の中身を空にする
+<br>
+
+
+
+
